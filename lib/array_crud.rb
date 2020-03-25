@@ -36,4 +36,5 @@ end
 
 def update_element_from_index(array, index_number, element)
   array.slice(index_number, 1, element)
+  array
 end
